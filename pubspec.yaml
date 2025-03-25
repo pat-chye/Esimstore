@@ -1,0 +1,39 @@
+name: esim_checker
+description: "A new Flutter project"
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.2.3 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^1.0.2
+  device_info_plus: ^9.1.1
+  url_launcher: ^6.2.2
+  flutter_launcher_icons: ^0.13.1
+  app_settings: ^5.1.1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^2.0.0
+
+flutter:
+  uses-material-design: true
+  
+  assets:
+    - assets/
+    - assets/ESIMICONLOGO-512.png
+    - assets/travelinsurance.png
+
+flutter_launcher_icons:
+  android: true
+  ios: true
+  image_path: "assets/ESIMICONLOGO-512.png"
+  adaptive_icon_background: "#FFFFFF"
+  adaptive_icon_foreground: "assets/ESIMICONLOGO-512.png"
+  remove_alpha_ios: true 
